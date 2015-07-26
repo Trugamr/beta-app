@@ -1,0 +1,15 @@
+Package: com.trugamr.touchidtap
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: trugamr <6trugamr9@gmail.com>
+Filename: /debians/com.trugamr.touchidtap.deb
+Depiction: http://trugamr.github.io/depictions/com.trugamr.touchidtap.html
+Size: 8282
+MD5sum: 01FAFBA933BC08BE608B21A32A551FD7
+SHA1: F9FD906B340598567296E1F80F406B887272B732
+Section: Themes
+Homepage: http://trugamr.github.io/
+Description: TouchID theme for TapToUnlock7
+Author: trugamr <6trugamr9@gmail.com>
+Name: TouchID for TapToUnlock7
+

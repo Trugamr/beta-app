@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: #303030;
+}
+
+#solid-box1 {
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+    display: table-cell;
+}
+
+#solid-box2 {
+    height: 100%;
+    width: 100%;
+    background-color: #FF5962;
+}
+
+#slide-box {
+    height: 45px;
+    width: 310px;
+    background-color: #EEEEEE;
+    position: absolute;
+    right: -265px;
+    bottom: 20px;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    transition: 0.5s ease;
+    z-index: 1;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+    padding: 10px;
+    font-size: 18px;
+    font-family: Raleway;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+@media screen and (max-width:600px) {
+    #slide-box {
+    display: none; }
+}
+
+#slide-box:hover {
+    transform: translateX(-260px);
+}
+
+#slide-box2 {
+    height: 45px;
+    width: 45px;
+    background-color: #EEEEEE;
+    position: absolute;
+    bottom: 20px;
+    right: 0px;
+    z-index: 5;
+    padding: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+}
+
+#remodal-text1 {
+    font-family: Raleway;
+}
+
+#remodal-text2 {
+    font-family: Raleway;
+    font-size: 20px;
+}
+
+#rebuttons {
+    font-family: Raleway;
+}
+
+@media screen and (min-width:601px) {
+    #slide-box2 {
+    display: none; }
+}
+
+#i-dropbox {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+#solid-box3 {
+    height: 100%;
+    width: 100%;
+    background-color: #63FFA4;
+}
+
+#solid-box4 {
+    height: 100%;
+    width: 100%;
+    background-color: #A94DFF;
+}
+
+#main-img {
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+    padding: 0;
+    height: auto;
+    width: 180px;
+    margin-bottom: -5px;
+    z-index: 2;
+}
+
+#main-heading-name {
+    color: white;
+    font-size: 44;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+    font-family: Righteous;
+    z-index: 2;
+}
+
+#main-tagline {
+    color: white;
+    font-size: 16;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+    font-family: Righteous;
+    padding-top: 0;
+    margin-top: -5;
+    z-index: 2;
+}
+
+.section1 {
+    text-align: center;
+    display: table;
+}
+
+#particles-js {
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+    position:fixed 
+}

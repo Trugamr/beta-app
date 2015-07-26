@@ -1,0 +1,108 @@
+<html>
+    <head>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>somejagain</title>
+        
+        <script src="js/jquery.min.js"></script>
+        
+        <link rel="stylesheet" href="css/bootstrap.css"/>
+        <script src="js/bootstrap.min.js"></script>
+        
+        <link rel="stylesheet" href="css/main.css"/>
+        <script src="js/colortrans.js"></script>
+        
+        <link rel="stylesheet" href="css/onepage-scroll.css"/>
+        <script src="js/onepagescroll.js"></script>
+        
+        <link href='http://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+        
+        <link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
+        
+        <link rel="stylesheet" href="css/animate.css"/>
+        <script src="js/wow.min.js"></script>
+        
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        
+        <script src="js/particles.min.js"></script>
+        
+        <link rel="stylesheet" href="css/remodal-default-theme.css">
+        <link rel="stylesheet" href="css/remodal.css">
+        <script src="js/remodal.min.js"></script>
+                
+    </head>
+    <body>
+        <div class="remodal-bg">
+        
+        <div id="particles-js"></div>
+        
+        <div id="slide-box" class="wow fadeInRight" data-wow-delay=".7s">
+            <i class="fa fa-dropbox" id="i-dropbox"></i>
+            repo: http://trugamr.github.io
+        </div>
+        
+        <div id="slide-box2" class="wow fadeInRight" data-wow-delay=".9s">
+            <a href="#remodal"><i class="fa fa-dropbox" id="i-dropbox"></i></a>
+        </div>
+        
+        
+        <div class="remodal" data-remodal-id="remodal">
+            <button data-remodal-action="close" class="remodal-close"></button>
+            <h3 id="remodal-text1">Cydia Repository</h3>
+            <p id="remodal-text2">http://trugamr.github.io</p>
+            <br>
+            <a id="rebuttons" href="cydia://sources/add" class="remodal-confirm">Add</a>
+            <button id="rebuttons" data-remodal-action="cancel" class="remodal-cancel">Cancel</button>            
+        </div>
+        
+        <div class="main">
+            
+            <section class="section1">
+                <div id="solid-box1">
+                    <div class="wow bounceIn" id="main-heading-img">
+                        <img onclick="new WOW().init();" data-wow-delay="0s" id="main-img" src="img/FullSizeRenderShadow.jpeg">
+                    </div>
+                    <div data-wow-delay="0.5s" class="wow bounceIn" id="main-heading-name" height="50%">
+                        Shivam Dua
+                    </div>
+                    <div class="container" height="40%">
+                    <div data-wow-delay=".775s" class="wow bounceIn" id="main-tagline">
+                        #justanother #gamer #jailbreaker </br> #themer #developer #:P
+                    </div>
+                    </div>
+                </div>
+            </section>
+        
+        <section class="section2">
+            <div id="solid-box2">
+            </div>
+        </section>
+    
+        <section class="section2">
+            <div id="solid-box3">
+            </div>
+        </section>
+        
+        <section class="section4">
+            <div id="solid-box4">
+            </div>
+        </section>
+        
+        </div>
+    <script>
+        setrandomcolor();
+    </script>    
+    <script>
+        onePageScroll(".main");
+    </script>
+    <script>
+        new WOW().init();
+    </script>
+    <script>
+        particlesJS.load('particles-js', 'json/particles.json', function() {
+        console.log('callback - particles.js config loaded');
+        });
+    </script>
+        </div>
+    </body>
+</html>
